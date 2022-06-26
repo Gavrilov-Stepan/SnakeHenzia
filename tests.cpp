@@ -10,6 +10,7 @@ TEST_CASE("InfoChecks") {
 Setup();
 REQUIRE(score == 0);
 REQUIRE(gameover == true);
+REQUIRE(main() == 0);
 }
 
 TEST_SUITE_END();
